@@ -1,0 +1,27 @@
+html {
+    font-family: "didot";
+  }
+  
+  h2 {
+    font-size: 100px;
+    margin: 0;
+     writing-mode: vertical-lr;
+    text-align: center;
+    line-height: .9;
+  }
+  
+  .rotate {
+     transform: rotate(180deg);
+  }
+  
+  div {
+    display: grid;
+    height: 100vh;
+    justify-content: center;
+    align-content: center;
+    grid-template-columns: max-content max-content;
+  }
+  
+  body {
+    margin: 0;
+  }
